@@ -3,7 +3,7 @@ import pathlib
 from time import sleep
 import os
 #pip install playsound==1.2.2
-from playsound import playsound
+from Lib.playsound import playsound
 
 Me = getframeinfo(currentframe()).filename
 FileFolder = pathlib.Path(Me).resolve().parent
