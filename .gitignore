@@ -1,0 +1,5 @@
+
+*.bat
+*.spec
+/build
+/dist
